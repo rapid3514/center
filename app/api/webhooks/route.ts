@@ -46,7 +46,7 @@ export async function POST(req: Request) {
   await db.user.create({
   data: {
           clerkId:evt.data.id,
-         userName: evt.data.username ?? `user_${evt.data.id}`,
+        username:evt.data.username!,
           avatar: evt.data.image_url,
           fullName:` ${evt.data.first_name} ${evt.data.last_name}`,
           bio: "Bio is not provided!!!",
@@ -57,7 +57,7 @@ export async function POST(req: Request) {
       await db.user.update({
         where: { clerkId: evt.data.id },
         data: {
-          userName:evt.data.username || undefined,
+          username:evt.data.username || undefined,
           avatar: evt.data.image_url,
           fullName:` ${evt.data.first_name} ${evt.data.last_name}`,
           bio: "Bio is not provided!!!",
