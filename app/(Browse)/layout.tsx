@@ -8,7 +8,7 @@ const Layout = ({children}:RootLayout) => {
   return (
       <SidebarProvider>
         <AppSidebar/>
-            <div>
+            <div className='w-full h-full'>
         <Navbar/>
         {children}
     </div>
