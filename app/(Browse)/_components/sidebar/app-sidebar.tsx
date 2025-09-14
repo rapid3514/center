@@ -7,12 +7,13 @@ import {
   SidebarMenuItem,
   SidebarSeparator,
 } from "@/components/ui/sidebar"
+import Navigation from "./navigation"
 
 export function AppSidebar() {
   return (
     <Sidebar collapsible="icon">
       <SidebarContent>
-      navigation
+     <Navigation/>
         <SidebarSeparator/>
             Following        
         <SidebarSeparator/>

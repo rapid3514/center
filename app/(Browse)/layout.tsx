@@ -2,7 +2,7 @@ import { SidebarProvider } from '@/components/ui/sidebar'
 import { RootLayout } from '@/types'
 import React from 'react'
 import { AppSidebar } from './_components/sidebar/app-sidebar'
-import Navbar from './_components/navbar/page'
+import Navbar from './_components/navbar/app-navbar'
 
 const Layout = ({children}:RootLayout) => {
   return (
