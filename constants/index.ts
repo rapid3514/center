@@ -40,3 +40,36 @@ export const Followes = [
       "https://static.vecteezy.com/system/resources/previews/042/332/096/non_2x/default-avatar-profile-icon-profile-placeholder-anonymous-user-male-no-photo-web-template-default-user-picture-for-social-networks-resume-forums-and-dating-sites-grey-photo-placeholder-free-vector.jpg",
   }
 ];
+export const recommended = [
+  {
+    username: "Dilshod",
+    Followers: 33,
+    id: 1,
+    avatar:
+      "https://static.vecteezy.com/system/resources/previews/042/332/096/non_2x/default-avatar-profile-icon-profile-placeholder-anonymous-user-male-no-photo-web-template-default-user-picture-for-social-networks-resume-forums-and-dating-sites-grey-photo-placeholder-free-vector.jpg",
+  },
+    {username: "Dilshod",
+    Followers: 33,
+    id: 2,
+    avatar:
+      "https://static.vecteezy.com/system/resources/previews/042/332/096/non_2x/default-avatar-profile-icon-profile-placeholder-anonymous-user-male-no-photo-web-template-default-user-picture-for-social-networks-resume-forums-and-dating-sites-grey-photo-placeholder-free-vector.jpg",
+  },
+    {username: "Dilshod",
+    Followers: 33,
+    id: 3,
+    avatar:
+      "https://static.vecteezy.com/system/resources/previews/042/332/096/non_2x/default-avatar-profile-icon-profile-placeholder-anonymous-user-male-no-photo-web-template-default-user-picture-for-social-networks-resume-forums-and-dating-sites-grey-photo-placeholder-free-vector.jpg",
+  },
+    {username: "Dilshod",
+    Followers: 33,
+    id: 4,
+    avatar:
+      "https://static.vecteezy.com/system/resources/previews/042/332/096/non_2x/default-avatar-profile-icon-profile-placeholder-anonymous-user-male-no-photo-web-template-default-user-picture-for-social-networks-resume-forums-and-dating-sites-grey-photo-placeholder-free-vector.jpg",
+  },
+    {username: "Dilshod",
+    Followers: 33,
+    id: 5,
+    avatar:
+      "https://static.vecteezy.com/system/resources/previews/042/332/096/non_2x/default-avatar-profile-icon-profile-placeholder-anonymous-user-male-no-photo-web-template-default-user-picture-for-social-networks-resume-forums-and-dating-sites-grey-photo-placeholder-free-vector.jpg",
+  }
+];
