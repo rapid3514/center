@@ -8,6 +8,7 @@ import {
   SidebarSeparator,
 } from "@/components/ui/sidebar"
 import Navigation from "./navigation"
+import Following from "./following"
 
 export function AppSidebar() {
   return (
@@ -15,7 +16,7 @@ export function AppSidebar() {
       <SidebarContent>
      <Navigation/>
         <SidebarSeparator/>
-            Following        
+          <Following/>      
         <SidebarSeparator/>
             Recommonded
       </SidebarContent>
