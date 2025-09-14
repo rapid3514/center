@@ -1,6 +1,7 @@
 import Logo from '@/components/shared/logo'
 import React from 'react'
 import Search from './search'
+import Action from './action'
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
     <div className='flex items-center justify-between h-full'>
        <Logo/>
        <Search/>
-        <h1>action</h1>
+       <Action/>
     </div>
     </div>
   )
